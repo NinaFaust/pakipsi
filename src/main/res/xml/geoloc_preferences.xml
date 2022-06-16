@@ -1,0 +1,13 @@
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ListPreference
+            android:defaultValue="true"
+            android:title="Период сохранения: " android:entries="@array/settings_period_saving_geolocation_titles"
+            android:entryValues="@array/settings_period_saving_geolocation_values" android:key="list_preference_1"/>
+    <ListPreference
+            android:defaultValue="true"
+            android:title="Хранить данные: " android:entries="@array/settings_saving_geolocation_titles"
+            android:entryValues="@array/settings_saving_geolocation_values" android:key="list_preference_2"/>
+
+</PreferenceScreen>

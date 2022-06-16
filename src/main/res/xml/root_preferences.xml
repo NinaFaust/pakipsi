@@ -1,0 +1,54 @@
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="#ffefad">'
+    <PreferenceCategory
+            app:title="@string/settings">
+        <EditTextPreference
+                android:key="name_user"
+                android:summary="Введите свое имя:"
+                app:useSimpleSummaryProvider="true"
+                android:dialogTitle="Введите свое имя:"
+                android:title="@string/signature_title"/>
+        <MultiSelectListPreference
+                android:summary="Список лиц, которым будет отправлено сообщение в местоположением "
+                android:entries="@array/settings_multi_select_list_preference_titles"
+                android:entryValues="@array/settings_multi_select_list_preference_values"
+                android:key="contacts_users_pref"
+                android:title="Доверенные контакты: "/>
+        <EditTextPreference
+                android:key="massage_enter"
+                android:defaultValue="Сообщение отправлено приложением PAKIPSI и человек его использующий находится в экстренной ситуации"
+                app:useSimpleSummaryProvider="true"
+                android:summary="Введите тест, который отправится доверенным контактам в экстренной ситуации:"
+                android:title="@string/massage_title"/>
+
+    </PreferenceCategory>
+    <PreferenceCategory
+            app:title="@string/geolocation">
+        <ListPreference
+                android:defaultValue="10"
+                android:title="Период сохранения: "
+                android:dialogTitle="Период обновления системой местоположения:"
+                android:summary="%s"
+                android:entries="@array/settings_period_saving_geolocation_titles"
+                android:entryValues="@array/settings_period_saving_geolocation_values"
+                android:key="period_saving_geo"/>
+        <ListPreference
+                android:defaultValue="3"
+                android:title="Хранить данные: "
+                android:dialogTitle="Период хранения данных геолокации:"
+                android:summary="%s"
+                android:entries="@array/settings_saving_geolocation_titles"
+                android:entryValues="@array/settings_saving_geolocation_values"
+                android:key="saving_geo"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+            app:title="@string/password_header">
+
+        <SwitchPreferenceCompat
+            android:key="sync"
+            android:title="@string/password_title"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

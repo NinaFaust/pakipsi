@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".MainFragment">
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black">
+
+        <ImageView
+                android:layout_width="280dp"
+                android:layout_height="271dp" app:srcCompat="@drawable/ic_image_1"
+                android:id="@+id/imageView3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="64dp" android:contentDescription="@string/image_main"
+                app:layout_constraintHorizontal_bias="0.495"/>
+        <Button
+                android:text="@string/button_activation"
+                android:layout_width="240dp"
+                android:layout_height="70dp" android:id="@+id/activateButton"
+                app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+                android:fontFamily="@font/montserrat"
+                android:textSize="20sp" android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="80dp"
+                app:layout_constraintHorizontal_bias="0.497"/>
+
+        <Button
+            android:id="@+id/stopTracking"
+            android:layout_width="239dp"
+            android:layout_height="52dp"
+            android:layout_marginBottom="216dp"
+            android:fontFamily="@font/montserrat"
+            android:text="Остановить трекинг"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/startTracking"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/startTracking"
+            android:layout_width="239dp"
+            android:layout_height="52dp"
+            android:fontFamily="@font/montserrat"
+            android:text="Запустить трекинг"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edtInfo" />
+
+        <EditText
+            android:id="@+id/edtInfo"
+            style="@style/TextAppearance.AppCompat.Inverse"
+            android:layout_width="353dp"
+            android:layout_height="89dp"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:text="Информация из базы"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>

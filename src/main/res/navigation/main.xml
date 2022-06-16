@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/main"
+            app:startDestination="@id/menuMain">
+
+    <fragment android:id="@+id/menuMain" android:name="com.gogatsun.pakipsi.MainFragment"
+              android:label="@string/app_name" tools:layout="@layout/fragment_main"/>
+    <fragment android:id="@+id/menuSettings" android:name="com.gogatsun.pakipsi.SettingsFragment"
+              android:label="@string/settings"
+              android:background="@color/nav_color"/>
+    <fragment android:id="@+id/menuInfoApp" android:name="com.gogatsun.pakipsi.InfoAppFragment"
+              android:label="@string/info_app" tools:layout="@layout/fragment_info_app"/>
+
+</navigation>

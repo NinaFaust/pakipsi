@@ -1,0 +1,16 @@
+<PreferenceScreen
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+            app:key="messages_header"
+            app:title="@string/title_activity_settings"
+            app:icon="@drawable/messages"
+            app:fragment="com.gogatsun.pakipsi.SettingsActivity$MessagesFragment"/>
+
+    <Preference
+            app:key="sync_header"
+            app:title="@string/geolocation"
+            app:icon="@drawable/sync"
+            app:fragment="com.gogatsun.pakipsi.SettingsActivity$SyncFragment"/>
+
+</PreferenceScreen>

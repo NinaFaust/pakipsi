@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">PAKIPSI</string>
+    <string name="button_activation">Активировать</string>
+    <string name="nav_move">↑ Смахните вверх ↑</string>
+    <string name="image_main">Image Main</string>
+    <string name="image_main_nav">Image Nav</string>
+    <string name="settings">Настройки</string>
+    <string name="geolocation">Геолокация</string>
+    <string name="info_app">О приложении</string>
+    <string name="app_down_name">Дипломная работа</string>
+    <string name="name_menu_nav">Главная</string>
+    <string name="title_activity_settings">Настройки</string>
+    <string name="messages_header">Сообщение:</string>
+    <string name="password_header">Пароль</string>
+    <string name="signature_title">Имя пользователя:</string>
+    <string name="not_set">Заполните поле:)</string>
+    <string name="massage">massage</string>
+    <string name="massage_title">Сообщение:</string>
+    <string name="password_title">Вход по паролю</string>
+    <string name="name_user">name_user</string>
+    <string name="fragment_app_info_text">О приложении...</string>
+    <string name="fragment_app_info_main_next">
+        Приложение <i>PAKIPSI</i> позволяет в экстренной ситуации отправить своим
+        друзьям и близким свое местоположение нажатием кнопки "Активировать" на
+        главном экране приложения. \n
+        \n
+        <u>Номера экстренных служб:</u>\n
+        \n
+        <b>112</b>
+        – Единый номер экстренных служб\n
+        <b>101</b>
+        – Пожарная служба\n
+        <b>102</b>
+        – Полиция\n
+        <b>103</b>
+        – Скорая помощь\n
+        <b>104</b>
+        – Служба газа\n
+
+    </string>
+    <string name="attachment_title">Безопасность</string>
+    <string name="change_password">Изменить пароль</string>
+</resources>

@@ -1,0 +1,57 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+    <string-array name="settings_period_saving_geolocation_titles">
+        <item>10 секунд</item>
+        <item>15 минут</item>
+        <item>30 минут</item>
+        <item>1 час</item>
+    </string-array>
+    <string-array name="settings_period_saving_geolocation_values">
+        <item>10</item>
+        <item>900</item>
+        <item>1800</item>
+        <item>3600</item>
+    </string-array>
+    <string-array name="settings_saving_geolocation_titles">
+        <item>1 сутки</item>
+        <item>3 суток</item>
+        <item>5 суток</item>
+        <item>1 неделя</item>
+    </string-array>
+    <string-array name="settings_saving_geolocation_values">
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="settings_multi_select_list_preference_titles">
+        <item>Аргентия</item>
+        <item>Василий</item>
+        <item>Елена</item>
+        <item>Катерина</item>
+        <item>Кристина</item>
+        <item>Лев Толстой</item>
+        <item>Мама</item>
+        <item>Нина Фауст</item>
+        <item>Папа</item>
+    </string-array>
+    <string-array name="settings_multi_select_list_preference_values">
+        <item>+7 938 510-22-35</item>
+        <item>+7 895 236-58-22</item>
+        <item>+7 928 206-19-56</item>
+        <item>+7 938 405-47-50</item>
+        <item>+7 895 325-54-44</item>
+        <item>+7 928 206-19-55</item>
+        <item>+7 938 555-14-45</item>
+        <item>+7 961 255-52-22</item>
+        <item>+7 961 265-85-22</item>
+    </string-array>
+</resources>

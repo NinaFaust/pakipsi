@@ -1,0 +1,17 @@
+<PreferenceScreen
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditTextPreference
+            app:key="@string/name_user"
+            app:title="@string/signature_title"
+            app:useSimpleSummaryProvider="true"/>
+    <MultiSelectListPreference
+            app:dialogTitle="Выберите контакты: "
+            app:entries="@array/settings_multi_select_list_preference_titles"
+            app:entryValues="@array/settings_multi_select_list_preference_values"
+            app:title="Доверенные контакты: " />
+    <EditTextPreference
+            app:title="@string/massage_title"
+            app:useSimpleSummaryProvider="true"/>
+
+</PreferenceScreen>
